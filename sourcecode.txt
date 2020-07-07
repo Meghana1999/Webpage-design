@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="container">
+        <header id="main-header">
+            <img id="logo"src="images/download (1).png" alt="tech idea">
+        </header>
+        <div id="main-text">
+            <h1>Welcome to our Landing Page</h1>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        </div>
+        <div id="sub1">
+            <ul class="points">
+                <li>
+                    <img src="images/numb1.jpeg" alt="1." width="80" height="80">
+                    <h4>First Point</h4>
+                    <p>Tech idea is a website for providing quality information related to new technology.</p>
+                </li>
+                <li>
+                    <img src="images/num2.jpeg" alt="2." width="80" height="80">
+                    <h4>Second Point</h4>
+                    <p>Tech idea helps any beginners to understand tech aspects from basic to advanced.</p>
+                </li>
+                <li>
+                    <img src="images/num3.png" alt="3." width="80" height="80">
+                    <h4>Third Point</h4>
+                    <p>Tech idea serves as a bridge to become tech expert.</p>
+                </li>
+            </ul>
+            <footer class="content-footer">
+                <h3>More about us</h3>
+                <p>With so many consumers owning smartphones, there's a definite need for repair services</p>
+
+            </footer>
+
+        </div>
+        <div id="sub2">
+            <form id="contact-form">
+                <header id="content-header">
+                    <h3>Getting started</h3>
+                    <p>With so many consumers owning smartphones, there's a definite need for repair services</p>
+                </header>
+                <div>
+                    <label>Name*</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Email*</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>Company</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <em>* Required Fields</em>
+                    <input type="submit" value="Get in touch">
+                </div>
+                <div class="clearfix"></div>
+                <div class="content-footer">
+                    <p>We will never use our subscribers personal information for anything unspecified</p>
+                </div>
+            </form>
+        </div>
+        <div class="clearfix"></div>
+        <div id="testimonial">
+            <img src="images/download (2).png" alt="customer testimonial" width="120" height="120">
+            <blockquote>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type.
+            </blockquote>
+        </div>
+        <footer id="main-footer">
+            <p>copyright &copy; 2015</p>
+        </footer>
+    </div><!-- /. container-->
+
+</body>
+</html>
